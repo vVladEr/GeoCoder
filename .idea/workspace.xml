@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13004d7-a3cf-4d45-b0aa-87ad405e223c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addr_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/addr_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/address_parser_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/address_parser_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for address_parser_tests.TestAddrParser.testWithAdditionalHouseNumber">
+  <component name="RunManager" selected="Python tests.Python tests for address_parser_tests.TestAddrParser.testTwoWordCityWithTwoWordStreet">
     <configuration name="Python tests for address_parser_tests.TestAddrParser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GeoCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,7 +50,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for address_parser_tests.TestAddrParser.testHouseNumber" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for address_parser_tests.TestAddrParser.testOneWordCityName" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GeoCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +60,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testHouseNumber&quot;" />
+      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testOneWordCityName&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for address_parser_tests.TestAddrParser.testWithAdditionalHouseNumber" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for address_parser_tests.TestAddrParser.testTwoWordCityName" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GeoCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +74,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testWithAdditionalHouseNumber&quot;" />
+      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testTwoWordCityName&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for address_parser_tests.TestAddrParser.testWithoutAdditionalHouseNumber" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for address_parser_tests.TestAddrParser.testTwoWordCityWithTwoWordStreet" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GeoCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,31 +88,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testWithoutAdditionalHouseNumber&quot;" />
+      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testTwoWordCityWithTwoWordStreet&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for address_parser_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for address_parser_tests.TestAddrParser.testTwoWordStreetName" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GeoCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\codes\pp\GeoCoder\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;address_parser_tests&quot;" />
+      <option name="_new_target" value="&quot;address_parser_tests.TestAddrParser.testTwoWordStreetName&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testWithAdditionalHouseNumber" />
+        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testTwoWordCityWithTwoWordStreet" />
+        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testTwoWordCityName" />
+        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testTwoWordStreetName" />
         <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser" />
-        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testHouseNumber" />
-        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testWithoutAdditionalHouseNumber" />
-        <item itemvalue="Python tests.Unittests for address_parser_tests" />
+        <item itemvalue="Python tests.Python tests for address_parser_tests.TestAddrParser.testOneWordCityName" />
       </list>
     </recent_temporary>
   </component>

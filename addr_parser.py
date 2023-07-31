@@ -10,6 +10,8 @@ class AddressParser:
         for key in self.data.keys():
             self.data[key] = ""
         self._addr = addr
+        self.find_city_name()
+        self.find_street_name()
         self.find_house_additional_number()
         self.find_house_number()
 
@@ -31,3 +33,18 @@ class AddressParser:
             if house_number.group(group_name):
                 self.data["house_number"] = house_number.group(group_name)
         self._addr = re.sub(re_house_number, "", self._addr)
+
+    def find_street_name(self):
+        re_street_name = re.compile("((ул\.?)|(улица) )?((?P<streetName>("
+                                    "((?:(Мал)|(Больш)|(Верхн)|(Нижн)|(Стар)|(Нов))[a-я]{2} )?"
+                                    "[ЁА-Я][ЁёА-я\-]+)))( |,)(?:\d|д|к)")
+        street_name = re.search(re_street_name, self._addr)
+        self.data["street"] = street_name.group("streetName")
+
+    def find_city_name(self):
+        re_city_name = re.compile("((?P<cityName>("
+                                  "((?:(Мал)|(Больш)|(Верхн)|(Нижн)|(Стар)|(Нов))[a-я]{2} )?"
+                                  "[ЁА-Я][ЁёА-я\-]+)))(( |,)(?:[ЁА-Я]|у|п|б| )|$)")
+        city_name = re.search(re_city_name, self._addr)
+        self.data["city"] = city_name.group("cityName")
+
